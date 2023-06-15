@@ -13,7 +13,7 @@
         android:layout_height="50dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/calctext"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
