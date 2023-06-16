@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -72,13 +71,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        Log.d("MainActivity", "Button ID: " + view.getId());
-        switch(view.getId()) {
 
-            case R.id.btn1:
-                calctext.setText("1");
-                break;
-
+        if(view.getId() == R.id.btn1) {
+            calctext.setText("1");
+        } else if(view.getId() == R.id.btn2) {
+            calctext.setText("2");
         }
 
     }
