@@ -2,6 +2,7 @@ package com.example.calculate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +27,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnikoru;
     private Button btnc;
     private TextView calctext;
+
+    private boolean plusphase = false;
+
+    private StringBuilder sb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnc = findViewById(R.id.btnc);
         btnc.setOnClickListener(this);
 
+        sb = new StringBuilder();
+
         calctext = findViewById(R.id.calctext);
 
     }
@@ -73,9 +80,64 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
 
         if(view.getId() == R.id.btn1) {
-            calctext.setText("1");
+            if(sb.length() < 10) {
+                sb.append("1");
+                calctext.setText(sb);
+            }
+
         } else if(view.getId() == R.id.btn2) {
-            calctext.setText("2");
+            if(sb.length() < 10) {
+                sb.append("2");
+                calctext.setText(sb);
+            }
+
+        } else if(view.getId() == R.id.btn3) {
+            if(sb.length() < 10) {
+                sb.append("3");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btn4) {
+            if(sb.length() < 10) {
+                sb.append("4");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btn5) {
+            if(sb.length() < 10) {
+                sb.append("5");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btn6) {
+            if(sb.length() < 10) {
+                sb.append("6");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btn7) {
+            if(sb.length() < 10) {
+                sb.append("7");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btn8) {
+            if(sb.length() < 10) {
+                sb.append("8");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btn9) {
+            if(sb.length() < 10) {
+                sb.append("9");
+                calctext.setText(sb);
+            }
+        } else if(view.getId() == R.id.btnplus) {
+            if(plusphase == false) {
+                btnplus.setBackgroundColor(Color.rgb(200, 200, 200));
+                plusphase = true;
+            } else {
+                btnplus.setBackgroundColor(Color.rgb(68, 68, 68));
+                plusphase = false;
+            }
+
+        } else if(view.getId() == R.id.btnc) {
+            sb.delete(0, sb.length());
+            calctext.setText(sb);
         }
 
     }

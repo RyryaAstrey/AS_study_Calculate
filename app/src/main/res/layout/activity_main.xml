@@ -37,6 +37,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="7" />
 
         <Button
@@ -44,6 +45,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="8" />
 
         <Button
@@ -51,6 +53,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="9" />
 
         <Space
@@ -63,6 +66,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="÷" />
     </LinearLayout>
 
@@ -78,6 +82,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="4" />
 
         <Button
@@ -85,6 +90,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="5" />
 
         <Button
@@ -92,6 +98,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="6" />
 
         <Space
@@ -104,6 +111,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="×" />
     </LinearLayout>
 
@@ -119,6 +127,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="1" />
 
         <Button
@@ -126,6 +135,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="2" />
 
         <Button
@@ -133,6 +143,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="3" />
 
         <Space
@@ -145,6 +156,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="-" />
     </LinearLayout>
 
@@ -160,6 +172,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="0" />
 
         <Button
@@ -167,6 +180,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="c" />
 
         <Button
@@ -174,6 +188,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="=" />
 
         <Space
@@ -186,6 +201,7 @@
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#444444"
             android:text="+" />
     </LinearLayout>
 
